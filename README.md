@@ -1,0 +1,1 @@
+Logo height set to 70px; Speed label changed to Loop Speed.

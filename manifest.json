@@ -1,0 +1,1285 @@
+{
+  "sections": [
+    "Satellite and Observations",
+    "Model Fields",
+    "Model Soundings"
+  ],
+  "datasets": [
+    {
+      "id": "observations_ir",
+      "label": "Observations and IR",
+      "description": "Surface observations over Himawari-8 infrared satellite imagery",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/observations_ir/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "metar_observations",
+      "label": "METAR Observations",
+      "description": "METAR surface observations",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/metar_observations/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "metar_model_dewpoints",
+      "label": "METAR and Model Dewpoints",
+      "description": "METAR observations with model dewpoint guidance",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/metar_model_dewpoints/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "enhanced_ir",
+      "label": "Enhanced IR",
+      "description": "Enhanced infrared satellite imagery",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/enhanced_ir/frame 0.png",
+	"assets/enhanced_ir/frame 1.png",
+	"assets/enhanced_ir/frame 2.png",
+	"assets/enhanced_ir/frame 3.png",
+	"assets/enhanced_ir/frame 4.png",
+	"assets/enhanced_ir/frame 5.png",
+	"assets/enhanced_ir/frame 6.png",
+	"assets/enhanced_ir/frame 7.png",
+	"assets/enhanced_ir/frame 8.png",
+	"assets/enhanced_ir/frame 9.png",
+	"assets/enhanced_ir/frame 10.png",
+	"assets/enhanced_ir/frame 11.png",
+	"assets/enhanced_ir/frame 12.png",
+	"assets/enhanced_ir/frame 13.png",
+	"assets/enhanced_ir/frame 14.png",
+	"assets/enhanced_ir/frame 15.png",
+	"assets/enhanced_ir/frame 16.png",
+	"assets/enhanced_ir/frame 17.png",
+	"assets/enhanced_ir/frame 18.png",
+	"assets/enhanced_ir/frame 19.png",
+	"assets/enhanced_ir/frame 20.png",
+	"assets/enhanced_ir/frame 21.png",
+	"assets/enhanced_ir/frame 22.png",
+	"assets/enhanced_ir/frame 23.png",
+	"assets/enhanced_ir/frame 24.png",
+	"assets/enhanced_ir/frame 25.png",
+	"assets/enhanced_ir/frame 26.png",
+	"assets/enhanced_ir/frame 27.png",
+	"assets/enhanced_ir/frame 28.png",
+	"assets/enhanced_ir/frame 29.png",
+	"assets/enhanced_ir/frame 30.png",
+	"assets/enhanced_ir/frame 31.png",
+	"assets/enhanced_ir/frame 32.png",
+	"assets/enhanced_ir/frame 33.png",
+	"assets/enhanced_ir/frame 34.png",
+	"assets/enhanced_ir/frame 35.png",
+	"assets/enhanced_ir/frame 36.png",
+	"assets/enhanced_ir/frame 37.png",
+	"assets/enhanced_ir/frame 38.png",
+	"assets/enhanced_ir/frame 39.png",
+	"assets/enhanced_ir/frame 40.png",
+	"assets/enhanced_ir/frame 41.png",
+	"assets/enhanced_ir/frame 42.png",
+	"assets/enhanced_ir/frame 43.png",
+	"assets/enhanced_ir/frame 44.png",
+	"assets/enhanced_ir/frame 45.png",
+	"assets/enhanced_ir/frame 46.png",
+	"assets/enhanced_ir/frame 47.png",
+	"assets/enhanced_ir/frame 48.png",
+	"assets/enhanced_ir/frame 49.png",
+	"assets/enhanced_ir/frame 50.png",
+	"assets/enhanced_ir/frame 51.png",
+	"assets/enhanced_ir/frame 52.png",
+	"assets/enhanced_ir/frame 53.png",
+	"assets/enhanced_ir/frame 54.png",
+	"assets/enhanced_ir/frame 55.png",
+	"assets/enhanced_ir/frame 56.png",
+	"assets/enhanced_ir/frame 57.png",
+	"assets/enhanced_ir/frame 58.png",
+	"assets/enhanced_ir/frame 59.png",
+	"assets/enhanced_ir/frame 60.png",
+	"assets/enhanced_ir/frame 61.png",
+	"assets/enhanced_ir/frame 62.png",
+	"assets/enhanced_ir/frame 63.png",
+	"assets/enhanced_ir/frame 64.png",
+	"assets/enhanced_ir/frame 65.png",
+	"assets/enhanced_ir/frame 66.png",
+	"assets/enhanced_ir/frame 67.png",
+	"assets/enhanced_ir/frame 68.png",
+	"assets/enhanced_ir/frame 69.png",
+	"assets/enhanced_ir/frame 70.png",
+	"assets/enhanced_ir/frame 71.png",
+	"assets/enhanced_ir/frame 72.png",
+	"assets/enhanced_ir/frame 73.png",
+	"assets/enhanced_ir/frame 74.png",
+	"assets/enhanced_ir/frame 75.png",
+	"assets/enhanced_ir/frame 76.png",
+	"assets/enhanced_ir/frame 77.png",
+	"assets/enhanced_ir/frame 78.png",
+	"assets/enhanced_ir/frame 79.png",
+	"assets/enhanced_ir/frame 80.png",
+	"assets/enhanced_ir/frame 81.png",
+	"assets/enhanced_ir/frame 82.png",
+	"assets/enhanced_ir/frame 83.png",
+	"assets/enhanced_ir/frame 84.png",
+	"assets/enhanced_ir/frame 85.png",
+	"assets/enhanced_ir/frame 86.png",
+	"assets/enhanced_ir/frame 87.png",
+	"assets/enhanced_ir/frame 88.png",
+	"assets/enhanced_ir/frame 89.png",
+	"assets/enhanced_ir/frame 90.png",
+	"assets/enhanced_ir/frame 91.png",
+	"assets/enhanced_ir/frame 92.png",
+	"assets/enhanced_ir/frame 93.png",
+	"assets/enhanced_ir/frame 94.png",
+	"assets/enhanced_ir/frame 95.png",
+	"assets/enhanced_ir/frame 96.png",
+	"assets/enhanced_ir/frame 97.png",
+	"assets/enhanced_ir/frame 98.png",
+	"assets/enhanced_ir/frame 99.png",
+	"assets/enhanced_ir/frame 100.png",
+	"assets/enhanced_ir/frame 101.png",
+	"assets/enhanced_ir/frame 102.png",
+	"assets/enhanced_ir/frame 103.png",
+	"assets/enhanced_ir/frame 104.png",
+	"assets/enhanced_ir/frame 105.png",
+	"assets/enhanced_ir/frame 106.png",
+	"assets/enhanced_ir/frame 107.png",
+	"assets/enhanced_ir/frame 108.png",
+	"assets/enhanced_ir/frame 109.png",
+	"assets/enhanced_ir/frame 110.png",
+	"assets/enhanced_ir/frame 111.png",
+	"assets/enhanced_ir/frame 112.png",
+	"assets/enhanced_ir/frame 113.png",
+	"assets/enhanced_ir/frame 114.png",
+	"assets/enhanced_ir/frame 115.png",
+	"assets/enhanced_ir/frame 116.png",
+	"assets/enhanced_ir/frame 117.png",
+	"assets/enhanced_ir/frame 118.png",
+	"assets/enhanced_ir/frame 119.png",
+	"assets/enhanced_ir/frame 120.png",
+	"assets/enhanced_ir/frame 121.png",
+	"assets/enhanced_ir/frame 122.png",
+	"assets/enhanced_ir/frame 123.png",
+	"assets/enhanced_ir/frame 124.png",
+	"assets/enhanced_ir/frame 125.png",
+	"assets/enhanced_ir/frame 126.png",
+	"assets/enhanced_ir/frame 127.png",
+	"assets/enhanced_ir/frame 128.png",
+	"assets/enhanced_ir/frame 129.png",
+	"assets/enhanced_ir/frame 130.png",
+	"assets/enhanced_ir/frame 131.png",
+	"assets/enhanced_ir/frame 132.png",
+	"assets/enhanced_ir/frame 133.png",
+	"assets/enhanced_ir/frame 134.png",
+	"assets/enhanced_ir/frame 135.png",
+	"assets/enhanced_ir/frame 136.png",
+	"assets/enhanced_ir/frame 137.png",
+	"assets/enhanced_ir/frame 138.png",
+	"assets/enhanced_ir/frame 139.png",
+	"assets/enhanced_ir/frame 140.png",
+	"assets/enhanced_ir/frame 141.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0, 0, 0, 0, 0, 0,
+	1, 1, 1, 1, 1, 1,
+	2, 2, 2, 2, 2, 2,
+	3, 3, 3, 3, 3, 3,
+	4, 4, 4, 4, 4, 4,
+	5, 5, 5, 5, 5, 5,
+	6, 6, 6, 6, 6, 6,
+	7, 7, 7, 7, 7, 7,
+	8, 8, 8, 8, 8, 8,
+	9, 9, 9, 9, 9, 9,
+	10, 10, 10, 10, 10, 10,
+	11, 11, 11, 11, 11, 11,
+	12, 12, 12, 12, 12, 12,
+	13, 13, 13, 13,
+	14, 14, 14, 14, 14, 14,
+	15, 15, 15, 15, 15, 15,
+	16, 16, 16, 16, 16, 16,
+	17, 17, 17, 17, 17, 17,
+	18, 18, 18, 18, 18, 18,
+	19, 19, 19, 19, 19, 19,
+	20, 20, 20, 20, 20, 20,
+	21, 21, 21, 21, 21, 21,
+	22, 22, 22, 22, 22, 22,
+	23, 23, 23, 23, 23,
+	24
+      ],
+      "frameLabels": [
+        "08/00:00Z",
+        "08/00:10Z",
+        "08/00:20Z",
+        "08/00:30Z",
+        "08/00:40Z",
+        "08/00:50Z",
+        "08/01:00Z",
+        "08/01:10Z",
+        "08/01:20Z",
+        "08/01:30Z",
+        "08/01:40Z",
+        "08/01:50Z",
+        "08/02:00Z",
+        "08/02:10Z",
+        "08/02:20Z",
+        "08/02:30Z",
+        "08/02:40Z",
+        "08/02:50Z",
+        "08/03:00Z",
+        "08/03:10Z",
+        "08/03:20Z",
+        "08/03:30Z",
+        "08/03:40Z",
+        "08/03:50Z",
+        "08/04:00Z",
+        "08/04:10Z",
+        "08/04:20Z",
+        "08/04:30Z",
+        "08/04:40Z",
+        "08/04:50Z",
+        "08/05:00Z",
+        "08/05:10Z",
+        "08/05:20Z",
+        "08/05:30Z",
+        "08/05:40Z",
+        "08/05:50Z",
+        "08/06:00Z",
+        "08/06:10Z",
+        "08/06:20Z",
+        "08/06:30Z",
+        "08/06:40Z",
+        "08/06:50Z",
+        "08/07:00Z",
+        "08/07:10Z",
+        "08/07:20Z",
+        "08/07:30Z",
+        "08/07:40Z",
+        "08/07:50Z",
+        "08/08:00Z",
+        "08/08:10Z",
+        "08/08:20Z",
+        "08/08:30Z",
+        "08/08:40Z",
+        "08/08:50Z",
+        "08/09:00Z",
+        "08/09:10Z",
+        "08/09:20Z",
+        "08/09:30Z",
+        "08/09:40Z",
+        "08/09:50Z",
+        "08/10:00Z",
+        "08/10:10Z",
+        "08/10:20Z",
+        "08/10:30Z",
+        "08/10:40Z",
+        "08/10:50Z",
+        "08/11:00Z",
+        "08/11:10Z",
+        "08/11:20Z",
+        "08/11:30Z",
+        "08/11:40Z",
+        "08/11:50Z",
+        "08/12:00Z",
+        "08/12:10Z",
+        "08/12:20Z",
+        "08/12:30Z",
+        "08/12:40Z",
+        "08/12:50Z",
+        "08/13:00Z",
+        "08/13:10Z",
+        "08/13:40Z",
+        "08/13:50Z",
+        "08/14:00Z",
+        "08/14:10Z",
+        "08/14:20Z",
+        "08/14:30Z",
+        "08/14:40Z",
+        "08/14:50Z",
+        "08/15:00Z",
+        "08/15:10Z",
+        "08/15:20Z",
+        "08/15:30Z",
+        "08/15:40Z",
+        "08/15:50Z",
+        "08/16:00Z",
+        "08/16:10Z",
+        "08/16:20Z",
+        "08/16:30Z",
+        "08/16:40Z",
+        "08/16:50Z",
+        "08/17:00Z",
+        "08/17:10Z",
+        "08/17:20Z",
+        "08/17:30Z",
+        "08/17:40Z",
+        "08/17:50Z",
+        "08/18:00Z",
+        "08/18:10Z",
+        "08/18:20Z",
+        "08/18:30Z",
+        "08/18:40Z",
+        "08/18:50Z",
+        "08/19:00Z",
+        "08/19:10Z",
+        "08/19:20Z",
+        "08/19:30Z",
+        "08/19:40Z",
+        "08/19:50Z",
+        "08/20:00Z",
+        "08/20:10Z",
+        "08/20:20Z",
+        "08/20:30Z",
+        "08/20:40Z",
+        "08/20:50Z",
+        "08/21:00Z",
+        "08/21:10Z",
+        "08/21:20Z",
+        "08/21:30Z",
+        "08/21:40Z",
+        "08/21:50Z",
+        "08/22:00Z",
+        "08/22:10Z",
+        "08/22:20Z",
+        "08/22:30Z",
+        "08/22:40Z",
+        "08/22:50Z",
+        "08/23:00Z",
+        "08/23:10Z",
+        "08/23:20Z",
+        "08/23:30Z",
+        "08/23:40Z",
+        "09/00:00Z"
+      ],
+      "durationsMs": [
+	1000,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+	167,
+        2000
+      ]
+    },
+    {
+      "id": "ir",
+      "label": "IR",
+      "description": "Infrared satellite imagery",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/ir/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "vis_ir",
+      "label": "Vis-IR",
+      "description": "Visible / infrared satellite imagery",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/vis_ir/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "wv",
+      "label": "WV",
+      "description": "Water vapour satellite imagery",
+      "section": "Satellite and Observations",
+      "frames": [
+        "assets/wv/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/00Z",
+        "08/01Z",
+        "08/02Z",
+        "08/03Z",
+        "08/04Z",
+        "08/05Z",
+        "08/06Z",
+        "08/07Z",
+        "08/08Z",
+        "08/09Z",
+        "08/10Z",
+        "08/11Z",
+        "08/12Z",
+        "08/13Z",
+        "08/14Z",
+        "08/15Z",
+        "08/16Z",
+        "08/17Z",
+        "08/18Z",
+        "08/19Z",
+        "08/20Z",
+        "08/21Z",
+        "08/22Z",
+        "08/23Z",
+        "09/00Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "500_hpa_temperatures",
+      "label": "500 hPa Temperatures",
+      "description": "Access-G 500 hPa temperature guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/500_hpa_temperatures/frame_000.png",
+        "assets/500_hpa_temperatures/frame_001.png",
+        "assets/500_hpa_temperatures/frame_002.png",
+        "assets/500_hpa_temperatures/frame_003.png",
+        "assets/500_hpa_temperatures/frame_004.png",
+        "assets/500_hpa_temperatures/frame_005.png",
+        "assets/500_hpa_temperatures/frame_006.png",
+        "assets/500_hpa_temperatures/frame_007.png",
+        "assets/500_hpa_temperatures/frame_008.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "frameLabels": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "durationsMs": [
+        2000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        2000
+      ]
+    },
+    {
+      "id": "250_hpa_jets",
+      "label": "250 hPa Jets",
+      "description": "Access-G 250 hPa jet / upper-level wind guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/250_hpa_jets/frame_000.png",
+        "assets/250_hpa_jets/frame_001.png",
+        "assets/250_hpa_jets/frame_002.png",
+        "assets/250_hpa_jets/frame_003.png",
+        "assets/250_hpa_jets/frame_004.png",
+        "assets/250_hpa_jets/frame_005.png",
+        "assets/250_hpa_jets/frame_006.png",
+        "assets/250_hpa_jets/frame_007.png",
+        "assets/250_hpa_jets/frame_008.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "frameLabels": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "durationsMs": [
+        2000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        2000
+      ]
+    },
+    {
+      "id": "850_hpa_dewpoints_streamlines",
+      "label": "850 hPa Dewpoints and Streamlines",
+      "description": "Access-G 850 hPa dewpoint and streamline guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/850_hpa_dewpoints_streamlines/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "950_hpa_icon_streamlines",
+      "label": "950 hPa ICON and Streamlines",
+      "description": "Access-G 950 hPa ICON and streamline guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/950_hpa_icon_streamlines/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "dynamic_tropopause",
+      "label": "Dynamic Tropopause",
+      "description": "Dynamic Tropopause guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/dynamic_tropopause/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "cape_bulk_wind_shear",
+      "label": "CAPE and Bulk Wind Shear",
+      "description": "Access-G CAPE and bulk wind shear guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/cape_bulk_wind_shear/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "cape",
+      "label": "CAPE",
+      "description": "Access-G CAPE guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/cape/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "cin",
+      "label": "CIN",
+      "description": "Access-G convective inhibition guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/cin/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "dewpoints_streamlines",
+      "label": "Dewpoints and Streamlines",
+      "description": "Access-G dewpoint and streamline guidance frames",
+      "section": "Model Fields",
+      "frames": [
+        "assets/dewpoints_streamlines/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        0
+      ],
+      "frameLabels": [
+        "08/12Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "brisbane_model_soundings",
+      "label": "Brisbane Model Soundings",
+      "description": "Brisbane Model Soundings guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/brisbane_model_soundings/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "charleville_model_sounding",
+      "label": "Charleville Model Sounding",
+      "description": "Charleville Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/charleville_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "mount_isa_model_sounding",
+      "label": "Mount Isa Model Sounding",
+      "description": "Mount Isa Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/mount_isa_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "moree_model_sounding",
+      "label": "Moree Model Sounding",
+      "description": "Moree Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/moree_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "woodstock_model_sounding",
+      "label": "Woodstock Model Sounding",
+      "description": "Woodstock Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/woodstock_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "woomera_model_sounding",
+      "label": "Woomera Model Sounding",
+      "description": "Woomera Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/woomera_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    },
+    {
+      "id": "yeppoon_model_sounding",
+      "label": "Yeppoon Model Sounding",
+      "description": "Yeppoon Model Sounding guidance frames",
+      "section": "Model Soundings",
+      "frames": [
+        "assets/yeppoon_model_sounding/frame_000.png"
+      ],
+      "timeButtons": [
+        "08/12Z",
+        "08/15Z",
+        "08/18Z",
+        "08/21Z",
+        "09/00Z",
+        "09/03Z",
+        "09/06Z",
+        "09/09Z",
+        "09/12Z"
+      ],
+      "frameTimeIndices": [
+        4
+      ],
+      "frameLabels": [
+        "09/00Z"
+      ],
+      "durationsMs": [
+        2000
+      ]
+    }
+  ],
+  "initialDataset": "500_hpa_temperatures",
+  "defaultFrameMs": 1000
+}
